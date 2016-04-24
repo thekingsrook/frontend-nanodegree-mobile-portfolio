@@ -508,7 +508,7 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
   var window_top = document.body.scrollTop / 1250;
-  // var phase moved out of for loop 
+  // var phase moved out of for loop as it does not need to be there
   var phase;
   for (var i = 0; i < items.length; i++) {
     phase = Math.sin(window_top + i % 5);
@@ -532,6 +532,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
+  // create the number of rows based upon the available height
   var rows = Math.ceil(window.innerHeight / s) + 1; 
   var movingPizzas = document.getElementById("movingPizzas1"); 
   for (var i = 0; i < cols * rows; i++) {
