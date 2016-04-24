@@ -80,7 +80,7 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * Minifed HTML
 * Inlined and compress CSS
 * Added async to javascript file
-* Added width and height attrivutes to image tags
+* Added width and height attributes to image tags
 * Switched querySelector & querySelectorAll with the more efficent getElementsByClassName and getElementById
 * Moved DOM queries such as items, movingPizzas, dx and newwidth out of for loops as it is not necessary for them to be iterated over. This created a significant jump in performance.
 * In DOMContentLoaded, the amount of pizzas created for rendering is now calculated based upon the size of the screen, rather than using the static value of 200 
