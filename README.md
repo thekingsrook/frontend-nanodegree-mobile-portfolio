@@ -71,3 +71,11 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+
+
+
+###main.js
+
+* Switched querySelector & querySelectorAll with the more efficent getElementsByClassName and getElementById
+* Moved DOM queries such as items and movingPizzas out of for loops as it is not necessary for them to be within the loops
+* In DOMContentLoaded, the amount of pizzas created for rendering is now calculated based upon the height of the screen 
