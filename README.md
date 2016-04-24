@@ -76,6 +76,10 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 
 ###main.js
 
+* Losslessly compressed pizzeria image. Created a copy of the image and resized it to 100x75 so that the image is only as large as it needs to be 
+* Inlined and compress CSS
+* Added async to javascript file
+* Added width and height attrivutes to image tags
 * Switched querySelector & querySelectorAll with the more efficent getElementsByClassName and getElementById
-* Moved DOM queries such as items, movingPizzas, dx and newwidth out of for loops as it is not necessary for them to be iterated over. Moving var items created a significant jump in performance.
-* In DOMContentLoaded, the amount of pizzas created for rendering is now calculated based upon the height of the screen 
+* Moved DOM queries such as items, movingPizzas, dx and newwidth out of for loops as it is not necessary for them to be iterated over. This created a significant jump in performance.
+* In DOMContentLoaded, the amount of pizzas created for rendering is now calculated based upon the size of the screen, rather than using the static value of 200 
