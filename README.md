@@ -77,6 +77,7 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 ###main.js
 
 * Losslessly compressed pizzeria image. Created a copy of the image and resized it to 100x75 so that the image is only as large as it needs to be 
+* Minifed HTML
 * Inlined and compress CSS
 * Added async to javascript file
 * Added width and height attrivutes to image tags
